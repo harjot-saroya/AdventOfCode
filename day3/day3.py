@@ -21,9 +21,6 @@ def func1():
     return trees
 
 
-# print(func1())
-
-
 def func2(down, right):
     location = 0
     trees = 0
@@ -39,4 +36,5 @@ def func2(down, right):
     return trees
 
 
+print(func1())
 print(func2(1, 1)*func2(1, 3)*func2(1, 5)*func2(1, 7)*func2(2, 1))
